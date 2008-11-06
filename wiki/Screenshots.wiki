@@ -1,3 +1,7 @@
 #summary Screenshots of NDexer in action.
+<wiki:toc max_depth="2" />
 
-Testing!
+=Configuration=
+http://ndexer.googlecode.com/svn/wiki/screenshots/ndexer_configuration.png
+=Search=
+http://ndexer.googlecode.com/svn/wiki/screenshots/ndexer_search.png
