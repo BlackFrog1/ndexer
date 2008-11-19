@@ -1,4 +1,5 @@
 #summary Screenshots of NDexer in action.
+#labels Featured
 <wiki:toc max_depth="2" />
 =System Tray Icon=
 http://ndexer.googlecode.com/svn/wiki/screenshots/ndexer_tray_ui_1.png
