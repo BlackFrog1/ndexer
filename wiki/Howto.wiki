@@ -1,0 +1,37 @@
+#summary Instructions for performing common tasks with NDexer.
+<wiki:toc max_depth="2" />
+
+= Configuration =
+
+== Configuring file formats ==
+By default, NDexer will not index any file formats. You can add formats to index using the *Add* button in the configuration dialog, right under the _File Types_ list. 
+
+http://ndexer.googlecode.com/svn/wiki/screenshots/ndexer_configuration_add_filter_button.png
+
+Clicking it will bring up this dialog box:
+
+http://ndexer.googlecode.com/svn/wiki/screenshots/ndexer_add_filter.png
+
+The _Language_ dropdown lists all the programming languages and file formats supported by ctags. Selecting one will automatically populate the _Filter_ box, below, with ctags' default filters for that language.
+
+To add a file format, just select the language you want it to be indexed as, and then type one or more filters that will match the format in the box below. You can separate multiple filters with spaces or semicolons. After you're done, hit OK, and the file format(s) will be added to the list in the configuration dialog. Once you close out the configuration dialog with an *OK*, your index will be rebuilt to include the new file format(s).
+
+You can also remove existing file formats from the list by selecting them and clicking *Remove*.
+
+http://ndexer.googlecode.com/svn/wiki/screenshots/ndexer_configuration_remove_filter_button.png
+
+Removing a file format removes any matching files from your index automatically.
+
+== Configuring folders ==
+NDexer will only add files to its index that live in the folders you specify to index. Folders you specify will also be monitored for changes (instead of monitoring your entire hard disk, which would be ridiculously inefficient).
+
+You can add and remove folders to index using the *Add* and *Remove* buttons in the _Folders_ section of the configuration dialog. Once you apply your changes, your index will automatically be rebuilt to include any new folders and exclude old ones.
+
+== Configuring text editors ==
+NDexer has built-in support for integrating with a few different text editors. You can select the text editor you wish to use from the configuration dialog's _Text Editor_ section.
+
+http://ndexer.googlecode.com/svn/wiki/screenshots/ndexer_configuration_text_editor.png
+
+Just select the editor of your choice from the dropdown, and then make sure the text box contains the path to the selected editor's executable file (so NDexer can launch it for you as needed).
+
+= Searching =
