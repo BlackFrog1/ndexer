@@ -1,4 +1,5 @@
 #summary How to get started using NDexer.
+#labels Featured
 
   * Download and install the .NET Framework, version 3.5, if you don't already have it.
 [http://ndexer.googlecode.com/files/dotnetfx35setup.exe .NET Framework 3.5]
