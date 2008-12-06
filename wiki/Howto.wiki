@@ -35,3 +35,15 @@ http://ndexer.googlecode.com/svn/wiki/screenshots/ndexer_configuration_text_edit
 Just select the editor of your choice from the dropdown, and then make sure the text box contains the path to the selected editor's executable file (so NDexer can launch it for you as needed).
 
 = Searching =
+== Finding an identifier that starts with a word or phrase ==
+Open the *Search* dialog, either by selecting *Search Tags* from the context menu, or double-clicking the NDexer icon. Select *Find Tags*, and type the word/phrase into the search field.
+== Finding an identifier that ends with a word or phrase ==
+You can find identifiers that *end* with a word or phrase by prepending an asterisk ({{{*}}}) onto the search text.
+== Finding the identifiers defined in a class or function ==
+Open the *Search* dialog, select *Tags in Context*, and type the full name of the class or function.
+== Finding the identifiers defined in a specific file ==
+Open the *Search* dialog, select *Tags in File* and type the name of the file. Any files that have paths ending with the name you enter will be checked. You can use asterisks to expand your search, as well.
+== Getting the name of files from the index ==
+Open the *Search* dialog, select *Find Files*, and type in part or all of the name of the file. Any files that have paths containing the phrase you enter will be returned.
+== Searching for a phrase or identifier in your source code ==
+More advanced searches can be performed by opening the *Search Files* dialog from the context menu. Type in the phrase or code snippet you want to search for and any matching lines from your indexed files will be shown, along with surrounding lines for context.
